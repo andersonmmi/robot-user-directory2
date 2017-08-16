@@ -10,6 +10,13 @@ app.engine('mustache', mustache());
 app.set('vews', './views');
 app.set('view engine', 'mustache');
 
+app.use('/robot-user-directory2',express.static('robot-user-directory2'));
+
+app.get('/',function(req, res) {
+  res.send("Hello world!");
+});
+
+
 app.listen(port, function(){
   console.log("Listening on " + port);
 })
