@@ -13,7 +13,11 @@ app.set('view engine', 'mustache');
 app.use('/robot-user-directory2',express.static('robot-user-directory2'));
 
 app.get('/',function(req, res) {
-  res.send("Hello world!");
+  res.send(`
+      <ul>
+        <li>test1</li>
+        <li>test2</li>
+      </ul>`);
 });
 
 
