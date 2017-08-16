@@ -9,3 +9,7 @@ const mustache = require('mustache-express');
 app.engine('mustache', mustache());
 app.set('vews', './views');
 app.set('view engine', 'mustache');
+
+app.listen(port, function(){
+  console.log("Listening on " + port);
+})
