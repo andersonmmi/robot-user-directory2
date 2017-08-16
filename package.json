@@ -1,0 +1,29 @@
+{
+  "name": "robot-user-directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "express": "^4.15.4",
+    "moment": "^2.18.1",
+    "mustache-express": "^1.2.5",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andersonmmi/robot-user-directory2.git"
+  },
+  "keywords": [],
+  "author": "Aaron Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andersonmmi/robot-user-directory2/issues"
+  },
+  "homepage": "https://github.com/andersonmmi/robot-user-directory2#readme"
+}
