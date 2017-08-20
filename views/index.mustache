@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Robot User Directory2</title>
     <link rel="stylesheet" href="/public/styles.css">
+    <link rel="stylesheet" href="public/styles.css">
   </head>
   <body>
     {{#users}}
@@ -11,7 +12,8 @@
 
 
         <img src="{{avatar}}" />
-        <h2>{{name}}</h2><a href="/views/{{id}}">{{name}}</a>
+        <h2>{{name}}</h2>
+        <a href={{id}}>{{name}}</a>
         <h3>{{job}} | {{company}}</h3>
 
       </div>

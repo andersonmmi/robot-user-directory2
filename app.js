@@ -16,6 +16,13 @@ app.get('/',function(req, res) {
   res.render('index', data);
 });
 
+app.get('/:id', function (req, res) {
+ let id = req.params.id - 1;
+ res.render('id', data.users[id]);
+ console.log(id);
+
+})
+
 
 app.listen(port, function(){
   console.log("Listening on " + port);

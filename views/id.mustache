@@ -6,17 +6,18 @@
     <link rel="stylesheet" href="/public/styles.css">
   </head>
   <body>
-    {{#users}}
+    <h1>test</h1>
+    {{#id}}
       <div class="userCard">
 
 
         <img src="{{avatar}}" />
         <h2>{{name}}</h2>
-        <h3>{{city}}, {{country}} | {{job}} {{company}}</h3>
+        <h3>{{address.city}}, {{address.country}} | {{job}} {{company}}</h3>
 
       </div>
 
 
-    {{/users}}
+    {{/id}}
   </body>
 </html>
