@@ -9,7 +9,7 @@ app.engine('mustache', mustache());
 app.set('views', './views');
 app.set('view engine', 'mustache');
 
-app.use(express.static(__dirname+'/public'));
+app.use(express.static(__dirname+'/public/css'));
 
 // can I serve my HTML document here?
 app.get('/',function(req, res) {
